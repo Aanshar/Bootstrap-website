@@ -1,0 +1,228 @@
+body {
+    font-family:"Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Alfa Slab One";
+    
+}
+
+/* COntainers */
+
+.container-fluid {
+    /* padding: 3% 15%; */
+    padding: 7% 15%;
+}
+
+/* SECTIONS */
+
+.colored-section {
+    background-color: #ff4c68;
+    color:white;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* HEADINGS */
+.big-heading {
+    font-size: 3.5rem;   
+    line-height: 1.5;
+    
+}
+
+.section-heading {
+    font-size: 3rem;   
+    line-height: 1.5;
+}
+
+.my-heading {
+    line-height: 1.5rem;
+    
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size:2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.5rem;
+    font-family:"Montserrat-Light";
+}
+
+
+/* download buttons */
+
+.download-button{
+        margin: 5% 3% 5% 0;
+}
+
+/* TITLE SECTION  */
+
+
+
+/* there should be space between . and is name */
+#title .container-fluid {
+    padding :3% 15% 7%;
+    text-align: left;
+}
+
+/* TITLE IMAGE */
+
+.iphone-rotate {
+    width: 60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:30%;
+}
+
+
+
+/* FEATURES */
+
+#features {
+    
+    position: relative;
+    /* z-index:1; */
+    
+    
+}
+
+.color-check {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+
+
+.feature-box {
+    
+    padding: 5%;
+}
+
+.change-font-design {
+    color: #8f8f8f;
+}
+
+
+
+.color-check:hover {
+    color:#ff4c68;
+}
+
+
+/* TESTIMONIAL SEECTION */
+
+#testimonials{
+   
+    
+    background-color: #EF8172;
+    /* color: #fff; */
+}
+
+.testimonial-img {
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#press{
+    background-color: #EF8172;
+    
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/* to have the buttons outside the testimonial text */
+/* .carousel-item {
+    padding: 7% 15%;
+} */
+
+/* pricing-section */
+
+#pricing {
+    padding:100px;
+    
+}
+
+.pricing-column  {
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+} 
+
+
+
+
+
+    /* <!-- Call to Action --> */
+    
+    /* #cta {
+        background-color: #ff4c68;
+       color:white;
+    } */
+
+    /* .set-dist {
+      margin-top:5%;
+     margin: 5% 1% 0;
+    } */
+
+    /* .cta-heading {
+        font-family: "Alfa Slab One";
+   
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+    } */
+
+    /* FOOTER SECTIOn */
+
+    /* #footer {    
+        background-color: #fff;
+    } */
+
+    .social-icon{
+        margin:20px 10px;
+    }
+
+
+    @media (max-width:992px) {
+        #title {
+            text-align: center;
+        }
+        
+        .iphone-rotate {
+            position: static;
+            transform: rotate(0);
+            
+        }
+    }
